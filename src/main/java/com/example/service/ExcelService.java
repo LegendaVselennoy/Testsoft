@@ -35,7 +35,7 @@ public class ExcelService {
     }
 
     private void sortIntegers(List<Integer> list) {
-        sort(list, list.get(0), list.size() - 1);
+        sort(list, 0, list.size() - 1);
     }
 
     private void sort(List<Integer> list, int start, int end) {
